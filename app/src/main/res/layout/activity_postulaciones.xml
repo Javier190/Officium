@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".postulaciones">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="681dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Tus Postulaciones"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/recuadroanuncios"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="7dp">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Analista Financiero"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Viña Valdebenito"
+                android:gravity="center"/>
+
+            <Button
+
+                android:layout_width="320dp"
+                android:layout_height="30dp"
+                android:text="Ver Anuncio"
+
+                android:layout_gravity="center"
+                android:textSize="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/botonesanuncios"/>
+
+            <Button
+
+                android:layout_width="320dp"
+                android:layout_height="30dp"
+                android:text="Ver Etapa"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="6dp"
+                android:layout_gravity="center"
+                android:textSize="10dp"
+                android:padding="5dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/botonesanuncios"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/recuadroanuncios"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="7dp">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contador Auditor"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Razer SA"
+                android:gravity="center"/>
+
+            <Button
+
+                android:layout_width="320dp"
+                android:layout_height="30dp"
+                android:text="Ver Anuncio"
+
+                android:layout_gravity="center"
+                android:textSize="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/botonesanuncios"/>
+
+            <Button
+
+                android:layout_width="320dp"
+                android:layout_height="30dp"
+                android:text="Ver Etapa"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="6dp"
+                android:layout_gravity="center"
+                android:textSize="10dp"
+                android:padding="5dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/botonesanuncios"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/recuadroanuncios"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="7dp">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gerente de Finanzas"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Humane Labs"
+                android:gravity="center"/>
+
+            <Button
+
+                android:layout_width="320dp"
+                android:layout_height="30dp"
+                android:text="Ver Anuncio"
+
+                android:layout_gravity="center"
+                android:textSize="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/botonesanuncios"/>
+
+            <Button
+
+                android:layout_width="320dp"
+                android:layout_height="30dp"
+                android:text="Ver Etapa"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="6dp"
+                android:layout_gravity="center"
+                android:textSize="10dp"
+                android:padding="5dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/botonesanuncios"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/recuadroanuncios"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="7dp">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Supervisor Calidad"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nestle SA"
+                android:gravity="center"/>
+
+            <Button
+
+                android:layout_width="320dp"
+                android:layout_height="30dp"
+                android:text="Ver Anuncio"
+
+                android:layout_gravity="center"
+                android:textSize="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/botonesanuncios"/>
+
+            <Button
+
+                android:layout_width="320dp"
+                android:layout_height="30dp"
+                android:text="Ver Etapa"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="6dp"
+                android:layout_gravity="center"
+                android:textSize="10dp"
+                android:padding="5dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/botonesanuncios"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/bt_micv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botonesmain"
+            android:text="Mi CV" />
+
+        <Button
+            android:id="@+id/bt_buscar2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botonesmain"
+            android:text="Buscar" />
+
+        <Button
+            android:id="@+id/bt_postul"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botonesmain"
+            android:text="Postulaciones" />
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

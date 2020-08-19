@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".datospersonales"
+    android:background="@drawable/login_background">
+
+
+    <TextView
+        android:id="@+id/tv_tituloDatosPers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:text="Completa tus Datos"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="556dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="77dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_nombres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/campos_naranja"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Nombres"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/et_apellidos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/campos_naranja"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Apellidos"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/et_palabrasclave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/campos_naranja"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Palabras Clave"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/et_cargorelev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/campos_naranja"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Cargo Relevante"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/et_descripcionlaboral"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:padding="5sp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/campo_descripcionlab"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Descripcion de laborales realizadas o conocimientos"
+                android:inputType="textMultiLine"
+                android:textAlignment="textStart"
+                android:textColorHint="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/bt_subircv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/botonesnuevos"
+                android:text="Subir CV (PDF)"
+                android:textAllCaps="false"
+                android:textColor="@color/colorblanco"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bt_guardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/botonesnuevos"
+                android:text="Guardar"
+                android:textSize="20dp"
+                android:textColor="@color/colorblanco"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/bt_micv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botonesmain"
+            android:text="Mi CV" />
+
+        <Button
+            android:id="@+id/bt_buscar2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botonesmain"
+            android:text="Buscar" />
+
+        <Button
+            android:id="@+id/bt_postul"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/botonesmain"
+            android:text="Postulaciones" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

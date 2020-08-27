@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".datospersonales"></activity>
+        <activity android:name=".publicaciones"></activity>
+        <activity android:name=".datospersonales" />
         <activity android:name=".postulaciones" />
         <activity android:name=".anuncios" />
         <activity android:name=".MainActivity">

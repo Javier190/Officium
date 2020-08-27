@@ -73,6 +73,15 @@
             android:background="@drawable/botonesnuevos"
             android:text="Buscar"
             android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bt_publicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/botonesnuevos"
+            android:text="Publicar Empleo"
+            android:textSize="30sp" />
     </LinearLayout>
 
     <LinearLayout
